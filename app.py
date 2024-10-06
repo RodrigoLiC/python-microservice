@@ -8,7 +8,7 @@ app = FastAPI()
 host_name = os.getenv("DB_HOST", "localhost")
 port_number = os.getenv("DB_PORT", "3306")
 user_name = os.getenv("DB_USER", "root")
-password_db = os.getenv("DB_PASS", "1234")
+password_db = os.getenv("DB_PASS", "utec")
 database_name = os.getenv("DB_NAME", "bd_api_python")
 
 
